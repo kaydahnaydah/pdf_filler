@@ -1,0 +1,15 @@
+pdf_filler/
+├── app/
+│   ├── static/
+│   │   └── css/
+│   │       └── style.css
+│   ├── templates/
+│   │   ├── index.html
+│   │   └── base.html
+│   ├── __init__.py
+│   ├── routes.py
+│   ├── pdf_utils.py
+│   └── forms.py
+├── Dockerfile
+├── requirements.txt
+└── run.py

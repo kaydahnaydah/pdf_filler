@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Filler</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <h1>Form Filler</h1>
+        </div>
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <h4>Form Filler</h4>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
